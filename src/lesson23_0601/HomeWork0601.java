@@ -54,12 +54,9 @@ public class HomeWork0601 {
             if (array[0] > array[array.length - 1]) {
                 result[i] = array[0];
             } else result[i] = array[array.length - 1];
-
         }
         return result;
     }
-
-
 }
 
 
