@@ -43,7 +43,7 @@ public class HomeWork0601 {
 
     private static int[] makeEnds(int[] array) {
         int[] result = new int[2];
-        result[0] = array[0];
+        //result[0] = array[0];
         result[1] = array[array.length - 1];
         return result;
     }
