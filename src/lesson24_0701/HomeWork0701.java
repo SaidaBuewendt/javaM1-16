@@ -45,6 +45,7 @@ public class HomeWork0701 {
         int[] arr17 = new int[]{1, 2, 3, 4, 5};
         int[] arr18 = new int[]{6, 7, 8, 9};
 
+
         PrintArrays.printIntArrayForEach(make2(arr11, arr12)); // → [4, 5]
         PrintArrays.printIntArrayForEach(make2(arr13, arr14));// → [4, 1]
         PrintArrays.printIntArrayForEach(make2(arr15, arr16));// → [1, 2]
@@ -68,11 +69,14 @@ public class HomeWork0701 {
     }
 
     private static int maxTriple(int[] input) {
-       int result;
-        int check1 = Math.max(input[0], input[input.length / 2]);
-        int check2 = Math.max(input[input.length - 1], input[input.length / 2]);
-        result = Math.max(check1, check2);
-        return result;
+        //int result;
+        //int check1 = Math.max(input[0], input[input.length / 2]);
+        //int check2 = Math.max(input[input.length - 1], input[input.length / 2]);
+        //result = Math.max(check1, check2);
+        //return result;
+        int max = Math.max(input[0], input[input.length / 2]);
+        max = Math.max(max, input[input.length - 1]);
+        return max;
     }
 
     private static int[] plusTwo(int[] a, int[] b) {
