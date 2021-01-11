@@ -27,10 +27,11 @@ public class HomeWork1001 {
         System.out.println(myFirstCompareTo("Minsk", "Moscow"));//→ "Minsk
         System.out.println(myFirstCompareTo("Kyiv", "Paris")); //→ "Kyiv"
         System.out.println(myFirstCompareTo("Могилёв", "Потсдам"));//→ "Могилёв"
-        System.out.println(myFirstCompareTo("", ""));//→ "Могилёв"
-        System.out.println(myFirstCompareTo("", "Потсдам"));//→ "Могилёв"
-        System.out.println(myFirstCompareTo("Могилёв", ""));
-        System.out.println(myFirstCompareTo("Потсдам", "Потсдам"));//→ "Могилёв"
+        System.out.println(myFirstCompareTo("", ""));//→ "Введите название городов"
+        System.out.println(myFirstCompareTo("", "Потсдам"));//→ "Введите название городов"
+        System.out.println(myFirstCompareTo("Могилёв", "")); //"Введите название городов"
+        System.out.println(myFirstCompareTo("Потсдам", "Потсдам"));//→ "Потсдам"
+        System.out.println(myFirstCompareTo("Франкфурт", "Франкфурт Одер"));//→ "Франкфурт"
         System.out.println("____________");
 
         //Решите не используя цикл for: Даны целые числа A и B, где B > 0. Вывести B раз число A.
