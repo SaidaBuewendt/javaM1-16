@@ -60,10 +60,7 @@ public class HomeWork1301 {
     }
 
     private static int roundSum(int a, int b, int c) {
-        int resultA = round10(a);
-        int resultB = round10(b);
-        int resultC = round10(c);
-        return resultA + resultB + resultC;
+        return round10(a) + round10(b) + round10(c);
     }
 
     public static int round10(int num) {
