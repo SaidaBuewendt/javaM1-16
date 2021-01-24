@@ -1,6 +1,6 @@
 package lesson28_1301;
 
-import _UsefulMethods.Color;
+import UsefulMethods.Color;
 
 import java.util.Scanner;
 
@@ -43,7 +43,6 @@ public class TilesCalculation {
 
     private static int totalMaterialPriceAcross(double roomLength, double roomWidth, double tileLength, double tileWidth, double oneTilePrice) {
         return (int) (calculateTileQtyAcross(roomLength, roomWidth, tileLength, tileWidth) * oneTilePrice);
-
     }
 
     private static double workPrice(double roomLength, double roomWidth) {
@@ -51,7 +50,6 @@ public class TilesCalculation {
         double tax = withoutTax / 100 * 19;
         return withoutTax + tax;
     }
-
 
     private static double calculateTileQtyAlong(double roomLength, double roomWidth, double tileLength, double tileWidth) {
         double relationAlong1 = roomLength / tileLength;

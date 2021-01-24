@@ -1,6 +1,6 @@
 package lesson21_0401;
 
-import _UsefulMethods.Color;
+import UsefulMethods.Color;
 
 public class HomeWork0401 {
     public static void main(String[] args) {

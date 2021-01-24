@@ -1,4 +1,4 @@
-package _UsefulMethods;
+package UsefulMethods;
 
 public class MagicColor {
     public static void main(String[] args) {

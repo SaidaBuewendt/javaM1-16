@@ -1,7 +1,4 @@
-package HomeWorkWeichnachten;
-
-import javax.print.attribute.standard.PresentationDirection;
-import java.sql.PreparedStatement;
+package HomeWork;
 
 public class ExerciseString {
     public static void main(String[] args) {

@@ -1,7 +1,6 @@
 package lesson22_0501;
 
-import _UsefulMethods.Color;
-import _UsefulMethods.RoundDouble;
+import UsefulMethods.RoundDouble;
 import lesson20_2112.Main;
 
 public class HomeWork0501 {

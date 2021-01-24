@@ -1,6 +1,6 @@
 package lesson23_0601;
 
-import _UsefulMethods.PrintArrays;
+import UsefulMethods.PrintArrays;
 
 public class HomeWork0601 {
     public static void main(String[] args) {

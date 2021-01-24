@@ -1,6 +1,6 @@
 package lesson24_0701;
 
-import _UsefulMethods.PrintArrays;
+import UsefulMethods.PrintArrays;
 
 public class HWanalys {
     public static void main(String[] args) {

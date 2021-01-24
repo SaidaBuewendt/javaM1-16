@@ -1,6 +1,4 @@
-package _UsefulMethods;
-
-import java.sql.SQLOutput;
+package UsefulMethods;
 
 public class Color {
     public final static String ANSI_RESET = "\u001B[0m";

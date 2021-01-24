@@ -1,10 +1,6 @@
 package lesson28_1301;
 
-import _UsefulMethods.PrintArrays;
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-
-import javax.print.attribute.standard.PresentationDirection;
-import java.beans.PropertyEditorSupport;
+import UsefulMethods.PrintArrays;
 
 public class HomeWork1301 {
     public static void main(String[] args) {
